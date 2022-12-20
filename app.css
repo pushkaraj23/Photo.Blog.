@@ -1,0 +1,57 @@
+body {
+    background-color: #D4D5D9;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    box-shadow: 2px 2px 10px;
+}
+
+.line {
+    width: 90%;
+    height: 1px;
+    background: black;
+    margin-left: 5%;
+
+}
+
+h1,h2 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'Montserrat', sans-serif;
+    display: inline;
+}
+
+header {
+    margin-left: 5%;
+    padding: 0.5em 2em 0;
+}
+
+div {
+    width: 30%;
+    height: auto;
+    margin-top: 1.5em;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+@media (max-width : 600px){
+    h2 {
+        text-align: center;
+        margin-left: 0;
+    }
+    section {
+        flex-direction: column;
+        align-items: center;
+    }
+    div {
+        width: 90%;
+        height: auto;
+    }
+}
