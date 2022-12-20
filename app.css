@@ -147,5 +147,6 @@ body::-webkit-scrollbar-thumb {
         margin: 0;
         margin-bottom: 1em;
         font-size: 3vw;
+        text-align: center;
     }
 }
