@@ -142,9 +142,10 @@ body::-webkit-scrollbar-thumb {
     }
 
     .bio {
+        padding: 1em;
         width: 60%;
         margin: 0;
         margin-bottom: 1em;
-        font-size: 2vw;
+        font-size: 3vw;
     }
 }
